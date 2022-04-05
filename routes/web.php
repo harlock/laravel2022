@@ -19,3 +19,18 @@ Route::get('/', function () {
 Route::get("mi_primer_web",function(){
     return view("examples.hello_world");
 });
+
+
+Route::get("test_template",function(){
+    return view("layout.template");
+});
+
+
+
+
+
+
+
+
+
+
