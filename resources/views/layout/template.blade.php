@@ -24,7 +24,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-center text-white" id="navbarSupportedContent">
-                <ul class="navbar-nav mb-2 mb-lg-0 ">
+                <ul class="navbar-nav mb-4 mb-lg-0 ">
                     <li class="nav-item border-bottom border-white m-2 p-1">
                         <a class="nav-link active text-white" aria-current="page" href="#">Inicio</a>
                     </li>
