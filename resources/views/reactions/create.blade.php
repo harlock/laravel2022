@@ -12,7 +12,7 @@
                     <h5 class="card-title alert alert-success">Agregar reacción</h5>
                     <form method="POST" action="{{route("tipos_reacciones.store")}}">
                         @csrf
-                        <div id="content_description" class="mb-3" data-bs-toggle="tooltip" title="Campo Obligatorio">
+                        <div id="content_description" class="mb-3" data-bs-toggle="tooltip" data-bs-placement="top" title="Descripción">
                             <label for="reaction" class="form-label">Reacción</label>
                             <input type="text" class="form-control @error('description') is-invalid @enderror"
                                    id="reaction" name="description" value="{{ old('description') }}">

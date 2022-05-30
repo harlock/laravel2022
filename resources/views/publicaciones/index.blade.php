@@ -5,8 +5,6 @@
 
   @section('content')
 
-  <!DOCTYPE html>
-
       <div class="container">
         <h1 class="h1 alert alert-primary text-center">Publicaciones</h1>
 

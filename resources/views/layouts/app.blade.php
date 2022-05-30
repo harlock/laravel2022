@@ -100,7 +100,12 @@
         </main>
     </div>
     <script type="text/javascript">
-        new bootstrap.Tooltip(document.getElementById('content_description'))
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl)
+        })
+
+        // new bootstrap.Tooltip(document.getElementById('content_description'))
     </script>
 </body>
 </html>
